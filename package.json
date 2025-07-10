@@ -1,12 +1,16 @@
 {
-  "name": "subcodex",
+  "name": "subcodex-cli",
   "version": "1.0.0",
   "description": "Lenguaje de programación SubCode X CLI",
+  "main": "bin/subcodex.js",
   "bin": {
     "subcodex": "./bin/subcodex.js"
   },
   "type": "module",
-  "keywords": ["subcode", "cli", "lenguaje", "programacion"],
+  "scripts": {
+    "start": "node bin/subcodex.js"
+  },
+  "keywords": ["subcode", "cli", "lenguaje", "programacion", "subcodex", "epico"],
   "author": "Subcero",
   "license": "MIT",
   "dependencies": {
